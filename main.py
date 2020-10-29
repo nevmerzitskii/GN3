@@ -14,7 +14,7 @@ font2 = pygame.font.SysFont('Arial', 14, True, False)
 font_box = pygame.Surface((W - 30, font.get_height()))
 font_box_rect = font_box.get_rect(center=(W // 2, H - 30))
 
-screen.blit(font.render('Всем привет', True, BLACK)
+screen.blit(font.render('Всем привет', True, c))
 
 run = True
 while run:
